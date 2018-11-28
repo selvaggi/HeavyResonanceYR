@@ -1,6 +1,10 @@
 \subsubsection{\theoryC{High mass dilepton searches at HE-LHC ($ee, \mu\mu, \tau\tau$)}}
 \label{subsubsec:hr_lep}
 \contributors{C. Helsens, D. Jamin, M. Selvaggi}\rt{There are comments to address.}
+
+\newcommand*{\sqrtshelhc}{\ensuremath{\sqrt{s}=\text{27 TeV}}}
+
+
 %{\bf Authors: C. Helsens$^1$, D. Jamin$^2$, M. Selvaggi$^3$}\\
 %\newline
 %$^1$CERN EP-Departement, CH-1211 Geneva 23, Switzerland email: {\tt B.C. clement.helsens@cern.ch}\\
@@ -29,19 +33,17 @@ The decay products of heavy resonances are in the multi-TeV regime and the capab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsubsection{Monte Carlo Samples}
 %\paragraph*{Monte Carlo Samples}
-Monte Carlo simulated event samples were used to simulate the response of the future detector to signal and backgrounds. The muon momentum resolution is assumed to be $\sigma(p)/p \approx 20\%$ at $\pt= 20 $TeV. Signals are generated with \pythia~8.230~\cite{Sjostrand:2014zea} using the leading order cross-section from the generator.
+Monte Carlo simulated event samples were used to simulate the response of the future detector to signal and backgrounds. The muon momentum resolution is assumed to be $\sigma(p)/p \approx 10\%$ at $\pt~=~5$~TeV for central muons. Signals are generated with \pythia~8.230~\cite{Sjostrand:2014zea} using the leading order cross-section from the generator.
 All lepton flavour decays of the $\ZpSSM$ are generated assuming universality of the couplings.
-The Drell-Yan background has been generated using \MGvATNLO 2.5.2~\cite{Alwall:2014hca} at leading order only. A k-factor of 2 is applied to all the background processes. \rt{In every contribution you put a $k$-factor of 2 on the background. This seems an irrelevant arbitrary assumption.}
+The Drell-Yan background has been generated using \MGvATNLO 2.5.2~\cite{Alwall:2014hca} at leading order only. A conservative overall k-factor of 2 has been applied to all the background processes to account for possible higher order QCD corrections.\rt{In every contribution you put a $k$-factor of 2 on the background. This seems an irrelevant arbitrary assumption.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsubsection{Event Selection}
 %\paragraph*{Event Selection}
-Events are required to contain two leptons with $\pt > 0.5$~TeV, $|\eta|<4$. For ditau final state we focus on the most sensitive fully hadronic channel only. The ditau event selection requires two jets with $p_{T} > 0.5$>~TeV and $|\eta|<2.5$ identified as $\tau$'s. To ensure no overlap between the $\ell$ and $\tau$ final states, jets containing leptons with $\pt > 100$~GeV are vetoed. Finally, requirements of $\Delta \phi(\tau_1, \tau_2)> 2.4$ and $2.4<\Delta R(\tau_1, \tau_2)<4.6$ are applied.
-Mass dependent cuts applied to maximise the signal to background ratio are summarised in \tabb{tab:leptonicresonances:selectiontautau}.
+For the $\ell\ell$ final-states events are required to contain two isolated leptons with $\pt > 500$~GeV and $|\eta|<4$. For the $\tau\tau$ final state we focus solely on the fully hadronic decay mode which is expected to drive the sensitivity. The $\tau\tau$ event selection requires the presence two reconstrcuted jets with $\pt > 500$~GeV and $|\eta|<2.5$ identified as hadronic $\tau$'s. To ensure orthogonality between the $\ell$ and $\tau$ final states, jets overlapping with isolated leptons are vetoed. Additionnal mass dependent selection criteria on the azimutal angle between the two reconstructed $\tau$'s are applied to further improve the QCD background rejection (see \tabb{tab:leptonicresonances:selectiontautau}).
 
-The left and central panels of \fig{fig:leptonicresonances:masses} show the invariant mass distribution for a 6~TeV signal in the $ee$ and $\mu\mu$ channels. The mass resolution is better for the $ee$ channel, as expected. The right panel of \fig{fig:leptonicresonances:masses} shows the transverse mass~\footnote{The transverse mass is defined as $m_{T}  =  \sqrt{2\ptZp*\met*(1-\cos\Delta\phi(\Zp,\met))}$.}
-of a 6~TeV signal for the $\tau\tau$ channel.
-Several proxies for the true resonance mass have been tested, such as the invariant mass of the two taus, with and without correction for the missing energy. The transverse mass provided the best sensitivity and was therefore used to set limits and determine the discovery reach.
+The left and central panels of \fig{fig:leptonicresonances:masses} show the invariant mass distribution for a 6~TeV $\ZpSSM$ in the $ee$ and $\mu\mu$ channels. The mass resolution is better for the $ee$ channel, as expected. The right panel of \fig{fig:leptonicresonances:masses} shows the transverse mass~\footnote{The transverse mass is defined as $m_{T}  =  \sqrt{2\ptZp*\met*(1-\cos\Delta\phi(\Zp,\met))}$.}
+of a 6~TeV signal for the $\tau\tau$ channel. Because of the presence of neutrinos in $\tau$ decays, the true resonance mass cannot be reconstructed. Several arbitrary  choices are possible to approximate the $Z'$ mass. The transverse mass provided the best sensitivity and was therefore used to set limits and determine the discovery reach in $\tau\tau$ decay mode.
 
 \begin{table}[htbp]
    \centering
@@ -74,19 +76,16 @@ Several proxies for the true resonance mass have been tested, such as the invari
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsubsection{Results and discussion}
 %\paragraph*{Results and discussion}
-Hypothesis testing is performed using a modified frequentist method based on a profile likelihood that takes into account the systematic uncertainties as nuisance parameters that are fitted to the expected MC. For the $ee$ and $\mu\mu$ analyses, the dilepton invariant mass is used as the discriminant, while for the $\tau\tau$ channel the transverse mass is used. A 50\% uncertainty on the background normalisation is assumed.
+Hypothesis testing is performed using a modified frequentist method based on a profile likelihood that takes into account the systematic uncertainties as nuisance parameters that are fitted to the expected background predicted from Monte Carlo. For the $ee$ and $\mu\mu$ analyses, the dilepton invariant mass is used as the discriminant, while for the $\tau\tau$ channel the transverse mass is used. A 50\% uncertainty on the background normalisation is assumed.
 
-The exclusion limit obtained using \intlumihelhc\ of data for the combination of the ee and $\mu\mu$ channels is shown in \fig{fig:leptonicresonances:resultsll} (left). Figure~\ref{fig:leptonicresonances:resultsll} (right) shows the integrated luminosity required to reach a $5\sigma$ discovery for the leptonic resonances as a function of the mass of the heavy resonance. The \Zpee\ and \Zpmumu\ channel display very similar performances, due to the low background rates. We conclude therefore that the reference detector design features near to optimal performances for searches involving high \pT\ muon final states. Figure~\ref{fig:leptonicresonances:resultstautau} shows the exclusion limits for 15 ab$^{-1}$ of data (left) and the required integrated luminosity
-versus mass to reach a $5\sigma$ discovery (right) for the ditau resonances. \rt{Comment on this being weaker than $ee$ and $\mu\mu$}.
-
-%The discovery potential for high mass resonances decaying to $ee$, $\mu\mu$ and $\tau\tau$ has been studied using as a benchmark the \ZpSSM\ model.
-In summary, the large centre of mass energy of the HE-LHC obviously translates in a correspondingly large mass reach. In the benchmark \ZpSSM mode, in the $ee$ and $\mu\mu$ final states, masses up to 12~TeV can be excluded or discovered. Heavy resonance decaying to $\tau$ leptons reconstructed in the hadronic decay mode are more challenging, but we would be able to probe masses up to 6~TeV.
+The 95\% C.L. exclusion limit obtained using \intlumihelhc\ of data for the combination of the ee and $\mu\mu$ channels is shown in \fig{fig:leptonicresonances:resultsll} (left) for a list of 6 different $Z'$ models. A detailed discussion on model discrimination at HE-LHC following the observation of an excess at the HL-LHC can be found in Section~\ref{sec:modeldiscr}. We simply note here that it is possible to exlude a $Z'$ with $m_{Z'}\lesssim 10-12$~TeV (depending on the model) at \sqrtshelhc\ with \intlumihelhc. Figure~\ref{fig:leptonicresonances:resultsll} (right) shows the integrated luminosity required to reach a $5\sigma$ discovery for a $\ZpSSM$ decaying leptonically as a function of the mass of the heavy resonance. Despite a worse di-lepton invariant mass resolution for the $\mu\mu$ final state, the \Zpee\ and \Zpmumu\ channel display very similar performances, due to the low background rates and a higher muon reconstruction efficiency. With the full dataset \intlumihelhc, a $\ZpSSM$ up to $m_{Z'}\approx 13$~TeV can be discovered.  Figure~\ref{fig:leptonicresonances:resultstautau} shows the exclusion limits for 15 ab$^{-1}$ of data (left) and the required integrated luminosity
+versus mass to reach a $5\sigma$ discovery (right) for the $\tau\tau$ resonances. We find that a $\ZpSSM$ with $m_{Z'}\approx 6.5$~TeV can be discovered or excluded. As expected, the \Zptata\ final-state yields to a worse discovery potential compared to the $\ell\ell$ final states because of the presence of a much larger background contribution as well as the absence of narrow mass peak.
 
   \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.45\columnwidth]{\main/section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_allxs.eps}
   \includegraphics[width=0.45\columnwidth]{\main/section7OtherSignatures/img/DiscoveryPotential_ll_comb_rootStyle.eps}
-  \caption{Limit versus mass for the dilepton (ee,$\mu\mu$) channel (left) and luminosity for a $5\sigma$ discovery (right) comparing ee,$\mu\mu$ and combined channels. }
+  \caption{Exclusion limit versus mass for the dilepton (ee,$\mu\mu$) channel (left) and luminosity for a $5\sigma$ discovery (right) comparing ee,$\mu\mu$ and combined channels. }
   \label{fig:leptonicresonances:resultsll}
 \end{figure}
 
@@ -94,6 +93,6 @@ In summary, the large centre of mass energy of the HE-LHC obviously translates i
   \centering
     \includegraphics[width=0.45\columnwidth]{\main/section7OtherSignatures/img/lim_Zprime_tautau_helhc_v01.eps}
     \includegraphics[width=0.45\columnwidth]{\main/section7OtherSignatures/img/DiscoveryPotential_tautau_rootStyle.eps}
-  \caption{Limit versus mass for the ditau channel (left) and luminosity for a $5\sigma$ discovery (right). }
+  \caption{Exclusion  Limit versus mass for the ditau channel (left) and luminosity for a $5\sigma$ discovery (right). }
   \label{fig:leptonicresonances:resultstautau}
 \end{figure}

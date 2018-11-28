@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.27)  28 NOV 2018 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.27)  28 NOV 2018 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,36 +1063,36 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 244.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 244.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 245.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 245.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 244.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 244.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 245.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 245.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 244.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 245.
+LaTeX Font Info:    ... okay on input line 245.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 245.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1164,7 +1164,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring ON on input line 244.
+Package hyperref Info: Link coloring ON on input line 245.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1174,9 +1174,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 244.
-LaTeX Info: Redefining \pageref on input line 244.
-LaTeX Info: Redefining \nameref on input line 244.
+LaTeX Info: Redefining \ref on input line 245.
+LaTeX Info: Redefining \pageref on input line 245.
+LaTeX Info: Redefining \nameref on input line 245.
 
 (./report.out) (./report.out)
 \@outlinefile=\write6
@@ -1204,7 +1204,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 20.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<cern.jpg, id=31, 1284.8pt x 1256.695pt>
+<cern.jpg, id=39, 1284.8pt x 1256.695pt>
 File: cern.jpg Graphic file (type jpg)
  <use cern.jpg>
 Package pdftex.def Info: cern.jpg used on input line 21.
@@ -1245,10 +1245,224 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 
-(./section7OtherSignatures/sub719.tex
+(./section7OtherSignatures/sub727.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `U/fsy/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 3.
+LaTeX Font Info:    Font shape `U/fsy/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 45.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/Zpee_mzp_sel
+0_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 27915 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/Zpee_mzp_sel
+0_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 15409 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/Zpee_mzp_sel0_nostack_log-eps-converted-to.pdf ./section7OtherSignatures/im
+g/Zpee_mzp_sel0_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/Zpee_mzp_sel0_nostack_log-eps-converted-to.pdf, 
+id=88, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/Zpee_mzp_sel0_nostack_log-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/Zpee_mzp_sel0_nostack_log-eps-converted-to.p
+df>
+Package pdftex.def Info: ./section7OtherSignatures/img/Zpee_mzp_sel0_nostack_lo
+g-eps-converted-to.pdf used on input line 68.
+(pdftex.def)             Requested size: 145.68144pt x 139.77576pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/Zpmumu_mzp_s
+el0_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 27472 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/Zpmumu_mzp_s
+el0_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 15436 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/Zpmumu_mzp_sel0_nostack_log-eps-converted-to.pdf ./section7OtherSignatures/
+img/Zpmumu_mzp_sel0_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/Zpmumu_mzp_sel0_nostack_log-eps-converted-to.pdf
+, id=89, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/Zpmumu_mzp_sel0_nostack_log-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/Zpmumu_mzp_sel0_nostack_log-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/Zpmumu_mzp_sel0_nostack_
+log-eps-converted-to.pdf used on input line 69.
+(pdftex.def)             Requested size: 145.68144pt x 139.77576pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/Zptautau_mt_
+sel0_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 08:30:15
+(epstopdf)                    size: 27862 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/Zptautau_mt_
+sel0_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 15802 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/Zptautau_mt_sel0_nostack_log-eps-converted-to.pdf ./section7OtherSignatures
+/img/Zptautau_mt_sel0_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/Zptautau_mt_sel0_nostack_log-eps-converted-to.pd
+f, id=90, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/Zptautau_mt_sel0_nostack_log-eps-converted-
+to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/Zptautau_mt_sel0_nostack_log-eps-converted-t
+o.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/Zptautau_mt_sel0_nostack
+_log-eps-converted-to.pdf used on input line 70.
+(pdftex.def)             Requested size: 145.68144pt x 139.77576pt.
+ [6]
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/lim_Zprime_l
+l_helhc_v01_allxs.eps>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 2027529 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/lim_Zprime_l
+l_helhc_v01_allxs-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 92605 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/lim_Zprime_ll_helhc_v01_allxs-eps-converted-to.pdf ./section7OtherSignature
+s/img/lim_Zprime_ll_helhc_v01_allxs.eps>
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_allxs-eps-converted-to.p
+df, id=118, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_allxs-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_allxs-eps-converted-
+to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_
+allxs-eps-converted-to.pdf used on input line 86.
+(pdftex.def)             Requested size: 204.85846pt x 196.18794pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/DiscoveryPot
+ential_ll_comb_rootStyle.eps>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 16165 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/DiscoveryPot
+ential_ll_comb_rootStyle-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 5869 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/DiscoveryPotential_ll_comb_rootStyle-eps-converted-to.pdf ./section7OtherSi
+gnatures/img/DiscoveryPotential_ll_comb_rootStyle.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/DiscoveryPotential_ll_comb_rootStyle-eps-convert
+ed-to.pdf, id=119, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/DiscoveryPotential_ll_comb_rootStyle-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/DiscoveryPotential_ll_comb_rootStyle-eps-con
+verted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/DiscoveryPotential_ll_co
+mb_rootStyle-eps-converted-to.pdf used on input line 87.
+(pdftex.def)             Requested size: 204.85846pt x 196.18794pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/lim_Zprime_t
+autau_helhc_v01.eps>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 2023969 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/lim_Zprime_t
+autau_helhc_v01-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 90831 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/lim_Zprime_tautau_helhc_v01-eps-converted-to.pdf ./section7OtherSignatures/
+img/lim_Zprime_tautau_helhc_v01.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/lim_Zprime_tautau_helhc_v01-eps-converted-to.pdf
+, id=120, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/lim_Zprime_tautau_helhc_v01-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/lim_Zprime_tautau_helhc_v01-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/lim_Zprime_tautau_helhc_
+v01-eps-converted-to.pdf used on input line 94.
+(pdftex.def)             Requested size: 204.85846pt x 196.18794pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/DiscoveryPot
+ential_tautau_rootStyle.eps>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 15662 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/DiscoveryPot
+ential_tautau_rootStyle-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 09:59:48
+(epstopdf)                    size: 5692 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/DiscoveryPotential_tautau_rootStyle-eps-converted-to.pdf ./section7OtherSig
+natures/img/DiscoveryPotential_tautau_rootStyle.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/DiscoveryPotential_tautau_rootStyle-eps-converte
+d-to.pdf, id=121, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/DiscoveryPotential_tautau_rootStyle-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/DiscoveryPotential_tautau_rootStyle-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/DiscoveryPotential_tauta
+u_rootStyle-eps-converted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 204.85846pt x 196.18794pt.
+) (./section7OtherSignatures/sub719.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1270,62 +1484,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
-LaTeX Warning: Citation `Rizzo:2014xma' on page 6 undefined on input line 27.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `Han:2013mra' on page 6 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Harland-Lang:2014zoa' on page 6 undefined on input lin
-e 27.
-
-<./section7OtherSignatures/img/zp14tev-ref.pdf, id=69, 794.97pt x 614.295pt>
+ [7 <./section7OtherSignatures/img/Zpee_mzp_sel0_nostack_log-eps-converted-to.p
+df> <./section7OtherSignatures/img/Zpmumu_mzp_sel0_nostack_log-eps-converted-to
+.pdf> <./section7OtherSignatures/img/Zptautau_mt_sel0_nostack_log-eps-converted
+-to.pdf>]
+[8 <./section7OtherSignatures/img/lim_Zprime_ll_helhc_v01_allxs-eps-converted-t
+o.pdf> <./section7OtherSignatures/img/DiscoveryPotential_ll_comb_rootStyle-eps-
+converted-to.pdf> <./section7OtherSignatures/img/lim_Zprime_tautau_helhc_v01-ep
+s-converted-to.pdf> <./section7OtherSignatures/img/DiscoveryPotential_tautau_ro
+otStyle-eps-converted-to.pdf>]
+<./section7OtherSignatures/img/zp14tev-ref.pdf, id=259, 794.97pt x 614.295pt>
 File: ./section7OtherSignatures/img/zp14tev-ref.pdf Graphic file (type pdf)
 
 <use ./section7OtherSignatures/img/zp14tev-ref.pdf>
 Package pdftex.def Info: ./section7OtherSignatures/img/zp14tev-ref.pdf used on 
-input line 33.
+input line 34.
 (pdftex.def)             Requested size: 204.85846pt x 150.52055pt.
 
-<./section7OtherSignatures/img/zp27tev-ref.pdf, id=71, 794.97pt x 614.295pt>
+<./section7OtherSignatures/img/zp27tev-ref.pdf, id=261, 794.97pt x 614.295pt>
 File: ./section7OtherSignatures/img/zp27tev-ref.pdf Graphic file (type pdf)
 
 <use ./section7OtherSignatures/img/zp27tev-ref.pdf>
 Package pdftex.def Info: ./section7OtherSignatures/img/zp27tev-ref.pdf used on 
-input line 34.
+input line 35.
 (pdftex.def)             Requested size: 204.85846pt x 150.52055pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 36.
+ [9 <./section7OtherSignatures/img/zp14tev-ref.pdf, page is rotated 270 degrees
+> <./section7OtherSignatures/img/zp27tev-ref.pdf, page is rotated 270 degrees>]
 
 
-LaTeX Warning: Citation `Aaboud:2017buh' on page 6 undefined on input line 40.
+LaTeX Warning: Citation `subsubsec:hr_lep' on page 10 undefined on input line 8
+9.
 
-
-LaTeX Warning: Citation `Sirunyan:2018exx' on page 6 undefined on input line 40
-.
-
-[6]
-
-LaTeX Warning: Citation `hlhelhc_web' on page 7 undefined on input line 83.
-
-
-LaTeX Warning: Citation `deFavereau:2013fsa' on page 7 undefined on input line 
-83.
-
-
-LaTeX Warning: Citation `Sjostrand:2014zea' on page 7 undefined on input line 8
-8.
-
-
-LaTeX Warning: Citation `subsubsec:hr_lep' on page 7 undefined on input line 88
-.
-
-[7 <./section7OtherSignatures/img/zp14tev-ref.pdf, page is rotated 270 degrees>
- <./section7OtherSignatures/img/zp27tev-ref.pdf, page is rotated 270 degrees>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 93.
 Package epstopdf Info: Source file: <./section7OtherSignatures/img/ry_afb_200Ge
 V_eta2p5_interf.eps>
 (epstopdf)                    date: 2018-11-28 08:30:15
@@ -1337,18 +1528,18 @@ V_eta2p5_interf-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
 img/ry_afb_200GeV_eta2p5_interf-eps-converted-to.pdf ./section7OtherSignatures/
 img/ry_afb_200GeV_eta2p5_interf.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
 <./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_interf-eps-converted-to.pdf
-, id=110, 569.12625pt x 736.7525pt>
+, id=294, 569.12625pt x 736.7525pt>
 File: ./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_interf-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_interf-eps-converted-to
 .pdf>
 Package pdftex.def Info: ./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_int
-erf-eps-converted-to.pdf used on input line 97.
+erf-eps-converted-to.pdf used on input line 98.
 (pdftex.def)             Requested size: 136.57462pt x 176.80173pt.
 Package epstopdf Info: Source file: <./section7OtherSignatures/img/sigma_vs_lum
 i.eps>
@@ -1361,17 +1552,17 @@ i-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
 img/sigma_vs_lumi-eps-converted-to.pdf ./section7OtherSignatures/img/sigma_vs_l
 umi.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf, id=111, 569.
+<./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf, id=295, 569.
 12625pt x 736.7525pt>
 File: ./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use ./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf>
 Package pdftex.def Info: ./section7OtherSignatures/img/sigma_vs_lumi-eps-conver
-ted-to.pdf used on input line 98.
+ted-to.pdf used on input line 99.
 (pdftex.def)             Requested size: 136.57462pt x 176.80173pt.
 Package epstopdf Info: Source file: <./section7OtherSignatures/img/Zp_branching
 _6TeV_15ab.eps>
@@ -1384,21 +1575,21 @@ _6TeV_15ab-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
 img/Zp_branching_6TeV_15ab-eps-converted-to.pdf ./section7OtherSignatures/img/Z
 p_branching_6TeV_15ab.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 
 <./section7OtherSignatures/img/Zp_branching_6TeV_15ab-eps-converted-to.pdf, id=
-112, 569.12625pt x 736.7525pt>
+296, 569.12625pt x 736.7525pt>
 File: ./section7OtherSignatures/img/Zp_branching_6TeV_15ab-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use ./section7OtherSignatures/img/Zp_branching_6TeV_15ab-eps-converted-to.pdf>
 Package pdftex.def Info: ./section7OtherSignatures/img/Zp_branching_6TeV_15ab-e
-ps-converted-to.pdf used on input line 99.
+ps-converted-to.pdf used on input line 100.
 (pdftex.def)             Requested size: 136.57462pt x 176.80173pt.
 
-LaTeX Warning: Citation `subsubsec:hr_had' on page 8 undefined on input line 10
-9.
+LaTeX Warning: Citation `subsubsec:hr_had' on page 10 undefined on input line 1
+10.
 
 )
 
@@ -1409,63 +1600,316 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 34.
 
-) [8 <./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_interf-eps-converted-t
-o.pdf> <./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf> <./se
-ction7OtherSignatures/img/Zp_branching_6TeV_15ab-eps-converted-to.pdf>]
-(./report.bbl
+(./section7OtherSignatures/sub729.tex
 
-LaTeX Warning: Empty `thebibliography' environment on input line 5.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
 
-)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[10] [11 <./section7OtherSignatures/img/ry_afb_200GeV_eta2p5_interf-eps-convert
+ed-to.pdf> <./section7OtherSignatures/img/sigma_vs_lumi-eps-converted-to.pdf> <
+./section7OtherSignatures/img/Zp_branching_6TeV_15ab-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/RSGWW_Mj1j2_
+pf08_fit_sel4_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 31884 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/RSGWW_Mj1j2_
+pf08_fit_sel4_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 7449 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log-eps-converted-to.pdf ./section7OtherS
+ignatures/img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log-eps-conver
+ted-to.pdf, id=393, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/RSGWW_Mj1j2_pf08_fit_sel
+4_nostack_log-eps-converted-to.pdf used on input line 43.
+(pdftex.def)             Requested size: 136.57462pt x 131.03561pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/Zptt_Mj1j2_p
+f08_MetCorr_fit_sel8_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 08:30:16
+(epstopdf)                    size: 29526 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/Zptt_Mj1j2_p
+f08_MetCorr_fit_sel8_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 09:13:04
+(epstopdf)                    size: 15639 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/Zptt_Mj1j2_pf08_MetCorr_fit_sel8_nostack_log-eps-converted-to.pdf ./section
+7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_fit_sel8_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_fit_sel8_nostack_log-eps
+-converted-to.pdf, id=394, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_fit_sel8_nostack_lo
+g-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_fit_sel8_nostack_log
+-eps-converted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_
+fit_sel8_nostack_log-eps-converted-to.pdf used on input line 44.
+(pdftex.def)             Requested size: 136.57462pt x 131.03561pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/qq_Mj1j2_pf0
+4_sel1_nostack_log.eps>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 28878 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/qq_Mj1j2_pf0
+4_sel1_nostack_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 15239 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/qq_Mj1j2_pf04_sel1_nostack_log-eps-converted-to.pdf ./section7OtherSignatur
+es/img/qq_Mj1j2_pf04_sel1_nostack_log.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./section7OtherSignatures/img/qq_Mj1j2_pf04_sel1
+_nostack_log-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
+ at most version <1.5> allowed
+
+<./section7OtherSignatures/img/qq_Mj1j2_pf04_sel1_nostack_log-eps-converted-to.
+pdf, id=395, 569.12625pt x 546.04pt>
+File: ./section7OtherSignatures/img/qq_Mj1j2_pf04_sel1_nostack_log-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/qq_Mj1j2_pf04_sel1_nostack_log-eps-converted
+-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/qq_Mj1j2_pf04_sel1_nosta
+ck_log-eps-converted-to.pdf used on input line 45.
+(pdftex.def)             Requested size: 136.57462pt x 131.03561pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/lim_RSGravit
+on_ww_helhc_v01.eps>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 834068 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/lim_RSGravit
+on_ww_helhc_v01-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 40636 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/lim_RSGraviton_ww_helhc_v01-eps-converted-to.pdf ./section7OtherSignatures/
+img/lim_RSGraviton_ww_helhc_v01.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/lim_RSGraviton_ww_helhc_v01-eps-converted-to.pdf
+, id=398, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/lim_RSGraviton_ww_helhc_v01-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/lim_RSGraviton_ww_helhc_v01-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/lim_RSGraviton_ww_helhc_
+v01-eps-converted-to.pdf used on input line 60.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/lim_Zprime_t
+t_helhc_v01.eps>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 2025537 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/lim_Zprime_t
+t_helhc_v01-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:49
+(epstopdf)                    size: 91378 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/lim_Zprime_tt_helhc_v01-eps-converted-to.pdf ./section7OtherSignatures/img/
+lim_Zprime_tt_helhc_v01.eps>
+(epstopdf)             \includegraphics on input line 61.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/lim_Zprime_tt_helhc_v01-eps-converted-to.pdf, id
+=399, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/lim_Zprime_tt_helhc_v01-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/lim_Zprime_tt_helhc_v01-eps-converted-to.pdf
+>
+Package pdftex.def Info: ./section7OtherSignatures/img/lim_Zprime_tt_helhc_v01-
+eps-converted-to.pdf used on input line 61.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/lim_Qstar_jj
+_helhc_v01.eps>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 833939 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/lim_Qstar_jj
+_helhc_v01-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 41107 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/lim_Qstar_jj_helhc_v01-eps-converted-to.pdf ./section7OtherSignatures/img/l
+im_Qstar_jj_helhc_v01.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/lim_Qstar_jj_helhc_v01-eps-converted-to.pdf, id=
+400, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/lim_Qstar_jj_helhc_v01-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/lim_Qstar_jj_helhc_v01-eps-converted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/lim_Qstar_jj_helhc_v01-e
+ps-converted-to.pdf used on input line 62.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/DiscoveryPot
+ential_ww_tagger_rootStyle.eps>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 15699 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/DiscoveryPot
+ential_ww_tagger_rootStyle-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 5774 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/DiscoveryPotential_ww_tagger_rootStyle-eps-converted-to.pdf ./section7Other
+Signatures/img/DiscoveryPotential_ww_tagger_rootStyle.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/DiscoveryPotential_ww_tagger_rootStyle-eps-conve
+rted-to.pdf, id=401, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/DiscoveryPotential_ww_tagger_rootStyle-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/DiscoveryPotential_ww_tagger_rootStyle-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/DiscoveryPotential_ww_ta
+gger_rootStyle-eps-converted-to.pdf used on input line 64.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/DiscoveryPot
+ential_tt_SSM_TC2_tagger_TRFbtag_rootStyle.eps>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 16468 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/DiscoveryPot
+ential_tt_SSM_TC2_tagger_TRFbtag_rootStyle-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 6164 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/DiscoveryPotential_tt_SSM_TC2_tagger_TRFbtag_rootStyle-eps-converted-to.pdf
+ ./section7OtherSignatures/img/DiscoveryPotential_tt_SSM_TC2_tagger_TRFbtag_roo
+tStyle.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/DiscoveryPotential_tt_SSM_TC2_tagger_TRFbtag_roo
+tStyle-eps-converted-to.pdf, id=402, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/DiscoveryPotential_tt_SSM_TC2_tagger_TRFbta
+g_rootStyle-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/DiscoveryPotential_tt_SSM_TC2_tagger_TRFbtag
+_rootStyle-eps-converted-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/DiscoveryPotential_tt_SS
+M_TC2_tagger_TRFbtag_rootStyle-eps-converted-to.pdf used on input line 65.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+Package epstopdf Info: Source file: <./section7OtherSignatures/img/DiscoveryPot
+ential_jj_rootStyle.eps>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 15926 bytes
+(epstopdf)             Output file: <./section7OtherSignatures/img/DiscoveryPot
+ential_jj_rootStyle-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-28 10:00:48
+(epstopdf)                    size: 5807 bytes
+(epstopdf)             Command: <repstopdf --outfile=./section7OtherSignatures/
+img/DiscoveryPotential_jj_rootStyle-eps-converted-to.pdf ./section7OtherSignatu
+res/img/DiscoveryPotential_jj_rootStyle.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<./section7OtherSignatures/img/DiscoveryPotential_jj_rootStyle-eps-converted-to
+.pdf, id=403, 569.12625pt x 545.03625pt>
+File: ./section7OtherSignatures/img/DiscoveryPotential_jj_rootStyle-eps-convert
+ed-to.pdf Graphic file (type pdf)
+
+<use ./section7OtherSignatures/img/DiscoveryPotential_jj_rootStyle-eps-converte
+d-to.pdf>
+Package pdftex.def Info: ./section7OtherSignatures/img/DiscoveryPotential_jj_ro
+otStyle-eps-converted-to.pdf used on input line 66.
+(pdftex.def)             Requested size: 136.57462pt x 130.79474pt.
+)) [12 <./section7OtherSignatures/img/RSGWW_Mj1j2_pf08_fit_sel4_nostack_log-eps
+-converted-to.pdf> <./section7OtherSignatures/img/Zptt_Mj1j2_pf08_MetCorr_fit_s
+el8_nostack_log-eps-converted-to.pdf> <./section7OtherSignatures/img/qq_Mj1j2_p
+f04_sel1_nostack_log-eps-converted-to.pdf>] (./report.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [13 <./section7OtherSignatures/img/lim_RSGraviton_ww_helhc_v01-eps-converted-
+to.pdf> <./section7OtherSignatures/img/lim_Zprime_tt_helhc_v01-eps-converted-to
+.pdf> <./section7OtherSignatures/img/lim_Qstar_jj_helhc_v01-eps-converted-to.pd
+f> <./section7OtherSignatures/img/DiscoveryPotential_ww_tagger_rootStyle-eps-co
+nverted-to.pdf> <./section7OtherSignatures/img/DiscoveryPotential_tt_SSM_TC2_ta
+gger_TRFbtag_rootStyle-eps-converted-to.pdf> <./section7OtherSignatures/img/Dis
+coveryPotential_jj_rootStyle-eps-converted-to.pdf>])
 
 Package caption Warning: Unused \captionsetup[subFigure] on input line 158.
 See the caption package documentation for explanation.
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+[14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 5062018DD4A3FBD3C2ECBBAE5314D55C;494.
+(rerunfilecheck)             Checksum: E8CE13BC4A5469BD78D46E881DE229DF;746.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
  ) 
 Here is how much of TeX's memory you used:
- 24291 strings out of 493014
- 405348 string characters out of 6133351
- 479169 words of memory out of 5000000
- 27261 multiletter control sequences out of 15000+600000
- 65931 words of font info for 112 fonts, out of 8000000 for 9000
+ 24498 strings out of 493014
+ 413889 string characters out of 6133351
+ 482534 words of memory out of 5000000
+ 27390 multiletter control sequences out of 15000+600000
+ 71928 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,11n,65p,1025b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/loca
+ 82i,11n,65p,1348b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on report.pdf (9 pages, 481751 bytes).
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (14 pages, 1028352 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 PDF objects out of 1000 (max. 8388607)
+ 603 compressed objects within 7 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

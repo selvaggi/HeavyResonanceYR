@@ -1,5 +1,218 @@
 \newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{London:1986jz}
+D.~London and J.~L. Rosner, {\em {Extra Gauge Bosons in E(6)}\/},  in {\em
+  {Proceedings, 23RD International Conference on High Energy Physics, JULY
+  16-23, 1986, Berkeley, CA}}.
+\newblock
+1986.
+\newblock
+%%CITATION = INSPIRE-241941;%%.
+
+\bibitem{Joglekar:2016yap}
+A.~Joglekar and J.~L. Rosner, {\em {Searching for signatures of $E_{\rm
+  6}$}\/},  \href{http://dx.doi.org/10.1103/PhysRevD.96.015026}{Phys. Rev. {\bf
+  D96} (2017) no.~1, 015026},
+\href{http://arxiv.org/abs/1607.06900}{{\tt arXiv:1607.06900 [hep-ph]}}.
+%%CITATION = ARXIV:1607.06900;%%.
+
+\bibitem{Langacker:2008yv}
+P.~Langacker, {\em {The Physics of Heavy $Z^\prime$ Gauge Bosons}\/},
+  \href{http://dx.doi.org/10.1103/RevModPhys.81.1199}{Rev. Mod. Phys. {\bf 81}
+  (2009)  1199--1228},
+\href{http://arxiv.org/abs/0801.1345}{{\tt arXiv:0801.1345 [hep-ph]}}.
+%%CITATION = ARXIV:0801.1345;%%.
+
+\bibitem{Salvioni:2009mt}
+E.~Salvioni, G.~Villadoro, and F.~Zwirner, {\em {Minimal Z-prime models:
+  Present bounds and early LHC reach}\/},
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/11/068}{JHEP {\bf 11} (2009)
+  068},
+\href{http://arxiv.org/abs/0909.1320}{{\tt arXiv:0909.1320 [hep-ph]}}.
+%%CITATION = ARXIV:0909.1320;%%.
+
+\bibitem{Sjostrand:2014zea}
+T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
+  S.~Mrenna, S.~Prestel, C.~O. Rasmussen, and P.~Z. Skands, {\em {An
+  Introduction to PYTHIA 8.2}\/},
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.01.024}{Comput. Phys. Commun. {\bf
+  191} (2015)  159--177},
+\href{http://arxiv.org/abs/1410.3012}{{\tt arXiv:1410.3012 [hep-ph]}}.
+%%CITATION = ARXIV:1410.3012;%%.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro, {\em {The automated
+  computation of tree-level and next-to-leading order differential cross
+  sections, and their matching to parton shower simulations}\/},
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{JHEP {\bf 07} (2014)  079},
+\href{http://arxiv.org/abs/1405.0301}{{\tt arXiv:1405.0301 [hep-ph]}}.
+%%CITATION = ARXIV:1405.0301;%%.
+
+\bibitem{Rizzo:2014xma}
+T.~G. Rizzo, {\em {Exploring new gauge bosons at a 100 TeV collider}\/},
+  \href{http://dx.doi.org/10.1103/PhysRevD.89.095022}{Phys. Rev. {\bf D89}
+  (2014) no.~9, 095022},
+\href{http://arxiv.org/abs/1403.5465}{{\tt arXiv:1403.5465 [hep-ph]}}.
+%%CITATION = ARXIV:1403.5465;%%.
+
+\bibitem{Han:2013mra}
+T.~Han, P.~Langacker, Z.~Liu, and L.-T. Wang, {\em {Diagnosis of a New Neutral
+  Gauge Boson at the LHC and ILC for Snowmass 2013}\/},
+\href{http://arxiv.org/abs/1308.2738}{{\tt arXiv:1308.2738 [hep-ph]}}.
+%%CITATION = ARXIV:1308.2738;%%.
+
+\bibitem{Harland-Lang:2014zoa}
+L.~A. Harland-Lang, A.~D. Martin, P.~Motylinski, and R.~S. Thorne, {\em {Parton
+  distributions in the LHC era: MMHT 2014 PDFs}\/},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3397-6}{Eur. Phys. J. C {\bf
+  75} (2015)  204},
+\href{http://arxiv.org/abs/1412.3989}{{\tt arXiv:1412.3989 [hep-ph]}}.
+%%CITATION = ARXIV:1412.3989;%%.
+
+\bibitem{Aaboud:2017buh}
+{ATLAS Collaboration}, {ATLAS Collaboration}, {\em {Search for new high-mass
+  phenomena in the dilepton final state using 36.1 fb$^{-1}$ of proton-proton
+  collision data at $\sqrt{s}$ = 13 TeV with the ATLAS detector}\/},
+  \href{http://dx.doi.org/10.1007/JHEP10(2017)182}{JHEP {\bf 10} (2017)  182},
+\href{http://arxiv.org/abs/1707.02424}{{\tt arXiv:1707.02424 [hep-ex]}}.
+%%CITATION = ARXIV:1707.02424;%%.
+
+\bibitem{Sirunyan:2018exx}
+{CMS Collaboration}, A.~M. Sirunyan et al., {\em {Search for high-mass
+  resonances in dilepton final states in proton-proton collisions at
+  $\sqrt{s}=$ 13 TeV}\/},
+\href{http://arxiv.org/abs/1803.06292}{{\tt arXiv:1803.06292 [hep-ex]}}.
+%%CITATION = ARXIV:1803.06292;%%.
+
+\bibitem{hlhelhc_web}
+{\em High Energy LHC main page\/},  2018.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/HLHELHCWorkshop}.
+
+\bibitem{deFavereau:2013fsa}
+{DELPHES 3 Collaboration}, J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco,
+  V.~Lema{\^\i}tre, A.~Mertens, and M.~Selvaggi, {\em {DELPHES 3, A modular
+  framework for fast simulation of a generic collider experiment}\/},
+  \href{http://dx.doi.org/10.1007/JHEP02(2014)057}{JHEP {\bf 02} (2014)  057},
+\href{http://arxiv.org/abs/1307.6346}{{\tt arXiv:1307.6346 [hep-ex]}}.
+%%CITATION = ARXIV:1307.6346;%%.
+
+\bibitem{Harris:2011bh}
+R.~M. Harris and K.~Kousouris, {\em {Searches for Dijet Resonances at Hadron
+  Colliders}\/},  \href{http://dx.doi.org/10.1142/S0217751X11054905}{Int. J.
+  Mod. Phys. {\bf A26} (2011)  5005--5055},
+\href{http://arxiv.org/abs/1110.5302}{{\tt arXiv:1110.5302 [hep-ex]}}.
+%%CITATION = ARXIV:1110.5302;%%.
+
+\bibitem{Boelaert:2009jm}
+N.~Boelaert and T.~Akesson, {\em {Dijet angular distributions at s$^{1/2}$ =14
+  TeV}\/},  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1268-8}{Eur. Phys.
+  J. {\bf C66} (2010)  343--357},
+\href{http://arxiv.org/abs/0905.3961}{{\tt arXiv:0905.3961 [hep-ph]}}.
+%%CITATION = ARXIV:0905.3961;%%.
+
+\bibitem{Lee:1973iz}
+T.~D. Lee, {\em {A Theory of Spontaneous T Violation}\/},
+  \href{http://dx.doi.org/10.1103/PhysRevD.8.1226}{Phys. Rev. {\bf D8} (1973)
+  1226--1239}.
+[,516(1973)].
+%%CITATION = PHRVA,D8,1226;%%.
+
+\bibitem{Branco:2011iw}
+G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, M.~Sher, and J.~P.
+  Silva, {\em {Theory and phenomenology of two-Higgs-doublet models}\/},
+  \href{http://dx.doi.org/10.1016/j.physrep.2012.02.002}{Phys. Rept. {\bf 516}
+  (2012)  01},
+\href{http://arxiv.org/abs/1106.0034}{{\tt arXiv:1106.0034 [hep-ph]}}.
+%%CITATION = ARXIV:1106.0034;%%.
+
+\bibitem{Hill:1994hp}
+C.~T. Hill, {\em {Topcolor assisted technicolor}\/},
+  \href{http://dx.doi.org/10.1016/0370-2693(94)01660-5}{Phys. Lett. {\bf B345}
+  (1995)  483--489},
+\href{http://arxiv.org/abs/hep-ph/9411426}{{\tt arXiv:hep-ph/9411426
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9411426;%%.
+
+\bibitem{Kaplan:1983sm}
+D.~B. Kaplan, H.~Georgi, and S.~Dimopoulos, {\em {Composite Higgs Scalars}\/},
+\href{http://dx.doi.org/10.1016/0370-2693(84)91178-X}{Phys. Lett. {\bf 136B}
+  (1984)  187--190}.
+%%CITATION = PHLTA,136B,187;%%.
+
+\bibitem{Bellazzini:2014yua}
+{Brando Bellazzini and Csaba Cs\'aki and Javi Serra}, {\em {Composite
+  Higgses}\/},  \href{http://dx.doi.org/10.1140/epjc/s10052-014-2766-x}{Eur.
+  Phys. J. {\bf C74} (2014) no.~5, 2766},
+\href{http://arxiv.org/abs/1401.2457}{{\tt arXiv:1401.2457 [hep-ph]}}.
+%%CITATION = ARXIV:1401.2457;%%.
+
+\bibitem{Randall:1999ee}
+L.~Randall and R.~Sundrum, {\em {A large mass hierarchy from a small extra
+  dimension}\/},  \href{http://dx.doi.org/10.1103/PhysRevLett.83.3370}{Phys.
+  Rev. Lett. {\bf 83} (1999)  3370},
+\href{http://arxiv.org/abs/hep-ph/9905221}{{\tt arXiv:hep-ph/9905221
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9905221;%%.
+
+\bibitem{Pomarol:1999ad}
+A.~Pomarol, {\em {Gauge bosons in a five-dimensional theory with localized
+  gravity}\/},  \href{http://dx.doi.org/10.1016/S0370-2693(00)00737-1}{Phys.
+  Lett. {\bf B486} (2000)  153--157},
+\href{http://arxiv.org/abs/hep-ph/9911294}{{\tt arXiv:hep-ph/9911294
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9911294;%%.
+
+\bibitem{Harris:1999ya}
+R.~M. Harris, C.~T. Hill, and S.~J. Parke, {\em {Cross-Section for Topcolor
+  $Z^{\prime}_t$ Decaying to $t\bar{t}$}\/},
+\href{http://arxiv.org/abs/hep-ph/9911288}{{\tt arXiv:hep-ph/9911288
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9911288;%%.
+
+\bibitem{Harris:2011ez}
+R.~M. Harris and S.~Jain, {\em {Cross Sections for Leptophobic Topcolor Z'
+  Decaying to Top-Antitop}\/},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-012-2072-4}{Eur. Phys. J. {\bf
+  C72} (2012)  2072},
+\href{http://arxiv.org/abs/1112.4928}{{\tt arXiv:1112.4928 [hep-ph]}}.
+%%CITATION = ARXIV:1112.4928;%%.
+
+\bibitem{Baur:1987ga}
+U.~Baur, I.~Hinchliffe, and D.~Zeppenfeld, {\em {Excited Quark Production at
+  Hadron Colliders}\/},
+\href{http://dx.doi.org/10.1142/S0217751X87000661}{Int. J. Mod. Phys. {\bf A2}
+  (1987)  1285}.
+%%CITATION = IMPAE,A2,1285;%%.
+
+\bibitem{Baur:1989kv}
+U.~Baur, M.~Spira, and P.~M. Zerwas, {\em {Excited Quark and Lepton Production
+  at Hadron Colliders}\/},
+\href{http://dx.doi.org/10.1103/PhysRevD.42.815}{Phys. Rev. {\bf D42} (1990)
+  815--824}.
+%%CITATION = PHRVA,D42,815;%%.
+
+\bibitem{Larkoski:2014wba}
+A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, {\em Soft drop\/},
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{JHEP {\bf 05} (2014)  146},
+\href{http://arxiv.org/abs/1402.2657}{{\tt arXiv:1402.2657 [hep-ph]}}.
+%%CITATION = ARXIV:1402.2657;%%.
+
+\bibitem{Thaler:2010tr}
+J.~Thaler and K.~Van~Tilburg, {\em {Identifying Boosted Objects with
+  N-subjettiness}\/},  \href{http://dx.doi.org/10.1007/JHEP03(2011)015}{JHEP
+  {\bf 03} (2011)  015},
+\href{http://arxiv.org/abs/1011.2268}{{\tt arXiv:1011.2268 [hep-ph]}}.
+%%CITATION = ARXIV:1011.2268;%%.
+
+\bibitem{Mangano:2016jyj}
+M.~L. Mangano et al., {\em {Physics at a 100 TeV pp Collider: Standard Model
+  Processes}\/},  \href{http://dx.doi.org/10.23731/CYRM-2017-003.1}{CERN Yellow
+  Report (2017) no.~3, 1--254},
+\href{http://arxiv.org/abs/1607.01831}{{\tt arXiv:1607.01831 [hep-ph]}}.
+%%CITATION = ARXIV:1607.01831;%%.
 
 \end{thebibliography}\endgroup

@@ -2,61 +2,55 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: report.bst
-I couldn't open database file ./section1IntroductionAndOverview/bib/section.bib
----line 46 of file report.aux
- : \bibdata{./bib/chapter,./section1IntroductionAndOverview/bib/section
- :                                                                     ,./section2SUSY/bib/section,./section3DarkMatterSearches/bib/section,./section4LongLivedParticles/bib/section,./section5DarkSectorDarkPhotons/bib/section,./section6FlavorRelatedStudies/bib/section,./section7OtherSignatures/bib/section}
-I'm skipping whatever remains of this command
 Database file #1: ./bib/chapter.bib
-Warning--I didn't find a database entry for "Rizzo:2014xma"
-Warning--I didn't find a database entry for "Han:2013mra"
-Warning--I didn't find a database entry for "Harland-Lang:2014zoa"
-Warning--I didn't find a database entry for "Aaboud:2017buh"
-Warning--I didn't find a database entry for "Sirunyan:2018exx"
-Warning--I didn't find a database entry for "hlhelhc_web"
-Warning--I didn't find a database entry for "deFavereau:2013fsa"
-Warning--I didn't find a database entry for "Sjostrand:2014zea"
+Database file #2: ./section7OtherSignatures/bib/section.bib
+Repeated entry---line 4360 of file ./section7OtherSignatures/bib/section.bib
+ : @article{Harris:1999ya
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "subsubsec:hr_lep"
 Warning--I didn't find a database entry for "subsubsec:hr_had"
-You've used 0 entries,
+`howpublished' is a missing field, not a string, for entry hlhelhc_web
+while executing---line 1208 of file report.bst
+You've used 29 entries,
             2458 wiz_defined-function locations,
-            570 strings with 4221 characters,
-and the built_in function-call counts, 23 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 3
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            826 strings with 10339 characters,
+and the built_in function-call counts, 10205 in all, are:
+= -- 1072
+> -- 308
+< -- 6
++ -- 220
+- -- 91
+* -- 948
+:= -- 1266
+add.period$ -- 60
+call.type$ -- 29
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 29
+duplicate$ -- 698
+empty$ -- 922
+format.name$ -- 85
+if$ -- 2571
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 4
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 29
+missing$ -- 109
+newline$ -- 150
+num.names$ -- 31
+pop$ -- 157
 preamble$ -- 2
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 330
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 508
+swap$ -- 209
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 3
-(There was 1 error message)
+while$ -- 80
+width$ -- 31
+write$ -- 262
+(There were 2 error messages)
