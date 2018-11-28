@@ -1,6 +1,5 @@
 %\newcommand{\CH}[1]{\textbf{\textcolor{green}{CH - #1}}}
 \subsubsection{\theoryC{$Z'$ discrimination at HE-LHC in case of an evidence/discovery after HL-LHC}}
-\label{sec:modeldiscr}
 \contributors{C. Helsens, D. Jamin, M. L. Mangano, T. Rizzo, M. Selvaggi}
 %{\bf Authors: C. Helsens$^1$, D. Jamin$^2$, M. L. Mangano$^3$, T. Rizzo$^4$, M. Selvaggi$^1$}\\
 %\newline
@@ -18,13 +17,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{Context of the study}
 \paragraph*{Context of the study}
-It is legitimate to assume that a heavy resonance could be seen at the end of HL-HLC. If that is the case a new collider with higher energy
-in the \com is needed to study its properties as too few events will be available at \sqrtslhc. In this document we present the discrimination potential of a High Energy LHC (HE-LHC) with an assumed \com energy of 27~TeV. Here we analyzed the capability of the \sqrtshelhc\ HE-LHC with \intlumihelhc\ to distinguish among six $Z'$ models. Under the assumption that these $Z'$'s decay only to SM particles, we show that there are sufficient observables to perform this model differentiation in most cases.
+It is still legitimate to assume that a heavy resonance could be seen at the end of HL-HLC. If that is the case a new collider with higher energy
+in the \com is needed to study its properties as too few events will be available at \sqrtslhc. In this section we present the discrimination potential between six $Z'$ models of a High Energy LHC (HE-LHC) with an assumed \com energy of 27~TeV and an integrated luminosity of \intlumihelhc. Under the assumption that these $Z'$'s decay only to SM particles, we show that there are sufficient observables to perform this model differentiation in most cases.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{Bounds from HL-LHC}
 \paragraph*{Bounds from HL-LHC}
-As a starting point it is needed to understand what are, for $\sqrt s=14$ TeV, for the typical exclusion/discovery reaches for some standard reference $Z'$ models assuming \intlumihllhc\ employing only the $e^+e^-$ and $\mu^+\mu^-$ channels. To address this and the other questions below we will use the same set of $Z'$ models as employed
+As a starting point it is needed to estimate what are, for $\sqrt s=14$ TeV, the typical exclusion/discovery reaches for standard reference $Z'$ models assuming \intlumihllhc\ employing only the $e^+e^-$ and $\mu^+\mu^-$ channels. To address this and the other questions below we will use the same set of $Z'$ models as employed
 in Ref.~\cite{Rizzo:2014xma} and mostly in Ref.~\cite{Han:2013mra}, both of which we will refer to frequently. We employ the MMHT2014 NNLO PDF set~\cite{Harland-Lang:2014zoa}
 throughout with an appropriate constant $K$-factor (=1.27) to account for higher order QCD corrections. The production cross section times leptonic branching fraction is shown in Figure~\ref{fig:pheno:toy} (left) for these models at \sqrtslhc\ in the narrow width approximation (NWA). It has been and will be assumed here that these $Z'$ states only decay to SM particles.
 
@@ -88,7 +87,8 @@ The model discrimination presented in this section has been performed assuming t
 
 The potential for discriminating various $Z'$ models is first investigated using the leptonic $ee$ and $\mu\mu$ final states only. The signal samples for the 6 models and the Drell-Yan backgrounds have been generated with \pythia~8.230~\cite{Sjostrand:2014zea} assuming including the interference between the signal and background. The $Z'$ decays assume lepton flavour universality. For a description of the event selection and a discussion of the discovery potential in leptonic final states for the list of $Z'$ models being discussed here, the reader should refer to Section~\cite{subsubsec:hr_lep}. We simply point out here that with \intlumihelhc\ , all $Z'$ models with $m_{Z'}~\lesssim~10$~TeV can be excluded at \sqrtshelhc.
 
-Figure~\ref{fig:ana:res} (left) shows the correlated predictions for the $A_{FB}$ and the rapidity ratio $r_y$ observables defined previusly for these six models given the above assumptions. Here we see that apart from a possible near degeneracy in models $\psi$ and $\eta$, a reasonable $Z'$ model separation is indeed achieved.
+Figure~\ref{fig:ana:res} (left) shows the correlated predictions for the $A_{FB}$ and the rapidity ratio $r_y$ observables defined previously for these six models given the above assumptions. Here we see that apart from a possible near degeneracy in models $\psi$ and $\eta$, a reasonable $Z'$ model separation is indeed achieved.
+It is important to note that the interference between the signal and the SM Drell-Yan amplitude is included, and as it was studied that for such high mass and narrow window around the Z$^\prime$, even large uncertainty on the background normalisation has no impact, the errors on $A_{FB}$ and $r_y$ are of statistical origin only.
 
 Using a profile likelihood technique, the signal strength $\mu$, or equivalently, $\sigma B_l$, can be fitted together with its corresponding error using the the di-lepton invariant mass shape. The quantity $\sigma B_l$ and its total estimated uncertainty is shown in Figure~\ref{fig:ana:res} (center) as a function of the integrated luminosity. The $\sigma B_l$ measurement seems to be able to resolve the degeneracy between the $\psi$ and $\eta$ models with \intlumihelhc. It should be noted however that since the cross-section can easily be modified by an overall rescaling of the couplings, further handles will be needed for a convincing discrimination.
 \rt{in plot right FCC Simulation -> HE-LHC simulation. Plot style can also be improved, line instead of boxes in legends. Increase line thickness in for better visibility.}
@@ -109,6 +109,7 @@ Using a profile likelihood technique, the signal strength $\mu$, or equivalently
 
 Model discrimination can be improved by including an analysis involving three $Z'$ addition hadronic final states: $t\bar{t}$, $b\bar{b}$ and $q\bar{q}$, where $q=u,d,c,s$. The sample production and event selection for the $t\bar{t}$, $q\bar{q}$ final states has been described to some extent in Section~\cite{subsubsec:hr_had}. We simply remind here that the analysis involves requiring the presence of two central high $\pt$ jets. In order to ensure complete orthogonality between the various final states jets are required to be tagged as follows. In the $Z' \rightarrow t\bar{t}$ analysis both jets should be \emph{top-tagged}. For the $Z' \rightarrow b\bar{b}$ final state both jets are required to be \emph{b-tagged} and we veto events containing at least one top-tagged jet. Finally, in the $Z' \rightarrow q\bar{q}$ analysis, we veto events that contain at least one b-tagged or top-tagged jet.
 
-Figure~\ref{fig:ana:res} (right) summarise the discrimination potential in terms of fitted cross-section of the different models considering the three aforementionned hadronic decays, $t\bar{t}$,  $b\bar{b}$ and $q\bar{q}$. An good overall discrimination among the various models can be achieved using all possible final states. We note however that the degeneracy between $\eta$ and $\Psi$ can only be partially resolved resolved at $\approx~1~\sigma$ by exploiting the difference in $t\bar{t}$ yield.
+Figure~\ref{fig:ana:res} (right) summarise the discrimination potential in terms of fitted cross-section of the different models considering the three aforementionned hadronic decays, $t\bar{t}$,  $b\bar{b}$ and $q\bar{q}$. An good overall discrimination among the various models can be achieved using all possible final states. For example, the SSM and $\psi$ models, which have very close predictions for $r_y$ and $A_{FB}$, have measurably different fractions of $t\bar{t}$ or $b\bar{b}$ final states. We note however that the degeneracy between $\eta$ and $\Psi$ can only be partially resolved resolved at $\approx~1~\sigma$ by exploiting the difference in $t\bar{t}$ yield.
 
 \paragraph*{Conclusion}
+In this section we studied the discrimination potential of six $Z'$ models of a High Energy LHC (HE-LHC) with an assumed \com energy of 27~TeV and an integrated luminosity of \intlumihelhc. Overall it was found that it is possible to distinguish among the models assumed for a $Z'$ mass of 6/,TeV. Of course if the mass of the $Z'$ is higher by a few TeVs, first it would not be seen at the end of HL-LHC, second HE-LHC would not be able to fully discriminate the models discussed here.
