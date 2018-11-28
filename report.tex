@@ -1,0 +1,317 @@
+\documentclass[11pt,twoside,a4paper]{cernrep}
+\usepackage{rep_common,mathrsfs}
+\usepackage{tabulary}
+\usepackage[colorlinks, urlcolor=blue, linkcolor=blue, citecolor=blue,plainpages=false]{hyperref}
+% --
+% -- ADD NEW PACKAGES HERE
+% --
+
+
+% --
+% --
+%-
+\pagestyle{plain}
+% --
+% -- The bibliography file paths for the main volume and all parts
+% --
+\def\bibfiles{\main/bib/chapter,\main/section1IntroductionAndOverview/bib/section,\main/section2SUSY/bib/section,\main/section3DarkMatterSearches/bib/section,\main/section4LongLivedParticles/bib/section,\main/section5DarkSectorDarkPhotons/bib/section,\main/section6FlavorRelatedStudies/bib/section,\main/section7OtherSignatures/bib/section}
+% --
+\providecommand{\biblio}{\nocite{article-minimal}\bibliographystyle{report}\clearpage\bibliography{\bibfiles}}  % *Modification: added `\main/` to specify relative file location.
+
+%=============================================================================
+% Extra symbols added by A.Chakraborty et. al.
+%--------------------------------------------------------
+\def\ifb{\rm~fb^{-1}}
+\def\iab{\rm~ab^{-1}}
+\newcommand{\GeV}{{\rm~GeV}}
+\newcommand{\TeV}{{\rm~TeV}}
+\newcommand{\mgpy}{\mgamc\texttt{+PY8}}
+%\newcommand{\sherpa}{\texttt{Sherpa}}
+% Fermionic top partner
+\newcommand{\tp}{T_p}
+\newcommand{\tpbar}{\bar{T}_p}
+% scalar top
+\newcommand{\stp}{\tilde{t}}
+\newcommand{\stbar}{\tilde{t}^*}
+% gluino
+\newcommand{\go}{\tilde{g}}
+% new resonance
+\newcommand{\Q}{\mathcal{Q}}
+\newcommand{\Qbar}{\overline{\newResonance}}
+\newcommand{\QQbar}{\Q\Qbar}
+\newcommand{\QQbarj}{\Q\Qbar+\jet}
+\newcommand{\newResonance}{\Q}
+\newcommand{\newResonanceBar}{\Qbar}
+% dark matter
+\newcommand{\dm}{X}
+% jet
+\newcommand{\jet}{j}
+\newcommand{\q}{q}
+\newcommand{\qbar}{\bar{\q}}
+\newcommand{\qqbar}{\q\qbar}
+\newcommand{\g}{g}
+\newcommand{\smtop}{t}
+\newcommand{\ttbar}{\smtop\bar{\smtop}}
+\newcommand{\ttbarj}{\ttbar+\jet}
+% processes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\tptp}{\tp\tpbar}
+\newcommand{\stst}{\st\stbar}
+\newcommand{\gogo}{\go\go}
+\newcommand{\tptpj}{\tp\tpbar+\jet}
+\newcommand{\tptpjj}{\tp\tpbar+2\jet}
+\newcommand{\ppQQbar}{pp\rightarrow\QQbar}
+\newcommand{\ppQQbarj}{pp\rightarrow\QQbar+\jet}
+\newcommand{\pptptp}{pp\rightarrow\tptp}
+\newcommand{\pptptpj}{pp\rightarrow\tptp+\jet}
+\newcommand{\pptptpjj}{pp\rightarrow\tptp+2\jet}
+% kinematics
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\pt}{p_{T}}
+\newcommand{\ptj}{p_{T}^{j_1}}
+\newcommand{\ptjcut}{p_{T,\mathrm{cut}}^{j_1}}
+\newcommand{\met}{E_{\mathrm{T}}^{\mathrm{miss}}}
+%\newcommand{\ptmiss}{p_{T}^{\mathrm{miss}}}
+\newcommand{\metcut}{E_{\mathrm{T},\mathrm{cut}}^{\mathrm{miss}}}
+\newcommand{\alt}{\approx}
+\newcommand{\ptmiss}{\ensuremath{\textbf{p}_{\mathrm{T}}^{\mathrm{miss}}}\xspace}
+%=============================================================================
+%Section 2 specific
+\newcommand{\mtop}{\ensuremath{m_{\mathrm{top}}}\xspace}
+\newcommand{\Dmstop}{\ensuremath{\Delta m(\tone,\neut)}\xspace}
+\newcommand{\largeDM}{large $\Delta m$\xspace}
+\newcommand{\diagonal}{diagonal\xspace}
+\newcommand{\antikt}{\ensuremath{\textrm{anti-}k_{t}}\xspace}
+\newcommand{\akt}[1]{\ensuremath{\textrm{anti-}k_{t}^{{#1}}}\xspace}
+\newcommand{\nbjet}{\ensuremath{N_{b-\mathrm{jet}}}\xspace}
+\newcommand{\aktm}[2]{\ensuremath{m_{#2}^{\akt{{#1}}}}\xspace}
+\newcommand{\mtbmin}{\ensuremath{m_{\mathrm{Tb}}^{\mathrm{min}}}\xspace}
+\newcommand{\RISR}{\ensuremath{R_{\mathrm{ISR}}}\xspace}
+%some definitions
+\newcommand{\Ci}{\ensuremath{\widetilde{\chi}_{i}^{\pm}}\xspace} % C
+\newcommand{\Nj}{\ensuremath{\widetilde{\chi}^{0}_{j}}\xspace} % N
+\newcommand{\COne}{\ensuremath{\widetilde{\chi}_{1}^{\pm}}\xspace} % C1
+\newcommand{\NTwo}{\ensuremath{\widetilde{\chi}^{0}_{2}}\xspace} % N2
+\newcommand{\NOne}{\ensuremath{\widetilde{\chi}^{0}_{1}}\xspace} % N1
+\newcommand{\Wstar}{\ensuremath{\PW^{*}}\xspace}
+\newcommand{\Zstar}{\ensuremath{\PZ^{*}}\xspace}
+\newcommand{\jisr}{\ensuremath{j_{\text{ISR}}}\xspace}
+\newcommand{\ptisr}{\ensuremath{p_{\text{T}}(\jisr)}\xspace}
+\newcommand{\dphijisr}{\ensuremath{\Delta\phi(\ptmiss,  \ptisr)}\xspace}
+\newcommand{\DRll}{\ensuremath{\Delta R(\ell_1\ell_2)}\xspace}
+\newcommand{\Njet}{\ensuremath{N_{\text{jet}}}\xspace}
+\newcommand{\Nlep}{\ensuremath{N_{\ell}}\xspace}
+\newcommand{\Nbjet}{\ensuremath{N_{\text{b-jet}}}\xspace}
+\newcommand{\Nisr}{\ensuremath{N_{\text{ISR}}}\xspace}
+\newcommand{\mll}{\ensuremath{m_{\ell_1, \ell_2}}\xspace}
+\newcommand{\pttwo}{\ensuremath{p_{\text{T}}({\ell_2})}\xspace}
+%Resonance
+\newcommand{\mleadJ}{\ensuremath{m_{\mathrm{J}}^{\mathrm{lead}}}\xspace}
+\newcommand{\msublJ}{\ensuremath{m_{\mathrm{J}}^{\mathrm{subl}}}\xspace}
+\def\kMPl{\ensuremath{k/\overline{M}_{\mathrm{Pl}}}\xspace}
+\newcommand{\abinv}{\mbox{\ensuremath{\,\text{ab}^\text{$-$1}}}\xspace}
+\newcommand{\kt}{\ensuremath{k_{\mathrm{T}}}\xspace}
+\newcommand{\tauTT}{\ensuremath{\tau_3/\tau_2}\xspace}
+\newcommand{\HT}{\ensuremath{H_{\text{T}}\xspace}}
+\newcommand{\abs}[1]{\ensuremath{\lvert #1 \rvert}}
+\newcommand*{\zptt}{\ensuremath{Z^{\prime} \rightarrow \ttbar}}
+\newcommand*{\qjj}{\ensuremath{Q^{*} \rightarrow jj}}
+\newcommand*{\rsg}{\ensuremath{G_{RS} \rightarrow WW}}
+\newcommand*{\vj}{\ensuremath{\text{V + jets}}}
+\newcommand*{\ZpSSM}{\ensuremath{Z^{\prime}_{\mathrm{SSM}}}}
+\newcommand*{\metvec}{\vec{\pt}^{\textrm{miss}}}
+\newcommand*{\intlumihelhc}{\ensuremath{\mathcal{L}=15\text{ ab}^{-1}}}
+\newcommand{\mx}{\ensuremath{m_{\PX}}\xspace}
+\newcommand{\bbbar}{\ensuremath{\Pqb\Paqb}\xspace}
+\newcommand{\fbinv} {\mbox{\ensuremath{\,\text{fb}^\text{$-$1}}}\xspace}
+\newcommand{\Mpl}{\ensuremath{{M_\mathrm{Pl}}}\xspace}
+\newcommand{\unit}[1]{\ensuremath{\text{\,#1}}\xspace}
+\newcommand{\LambdaR}{\ensuremath{\Lambda_{\text{R}}}\xspace}
+\newcommand{\intLumi}{3\abinv}
+\newcommand{\Hbb}{\ensuremath{\PH\to\bbbar}\xspace}
+\newcommand{\ttjets}{\ttbar+jets\xspace}
+\newcommand{\MJJ}{\ensuremath{m_{\text{JJ}}}\xspace}
+\newcommand{\mjj}{\ensuremath{m_{\text{jj}}}\xspace}
+\newcommand{\mH}{\ensuremath{m_{\PH}}\xspace}
+\newcommand{\nsub}{\ensuremath{\tau_{21}}\xspace}
+\newcommand*{\Z}{\ensuremath{Z}}
+\newcommand*{\Zp}{\ensuremath{Z^{\prime}}}
+\newcommand*{\Zptata}{\ensuremath{Z^{\prime}\rightarrow \tau\tau}}
+\newcommand*{\Zpee}{\ensuremath{Z^{\prime}\rightarrow e e}}
+\newcommand*{\Zpmumu}{\ensuremath{Z^{\prime}\rightarrow \mu\mu}}
+\newcommand*{\Zpll}{\ensuremath{Z^{\prime}\rightarrow \ell\ell}}
+\newcommand*{\Zptt}{\ensuremath{Z^{\prime}\rightarrow \ttbar}}
+\newcommand*{\ptZp}{\ensuremath{p_{\text{T}}^{\ensuremath{Z^{\prime}}}}}
+\newcommand\T{\rule{0pt}{2.6ex}}
+\newcommand\B{\rule[-1.2ex]{0pt}{0pt}}
+%SUSY sparticle
+\newcommand{\bone}   {\tilde{b}^{}_{1}}
+\newcommand{\tone}   {\tilde{t}^{}_{1}}
+\newcommand{\neut}  {\tilde{\chi}^{0}_{1}}
+\def\tg{\tilde g}
+\def\tw{\widetilde\chi^{\pm}}
+\def\tz{\widetilde\chi^0}
+\def\tst{\tilde t}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%               Some commands, PJF                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% section headings, include TH/EXP info
+\newcommand{\cms}[1]{\textcolor{blue}{\textbf{#1 [CMS]}}}
+\newcommand{\atlas}[1]{\textcolor{red}{\textbf{#1 [ATLAS]}}}
+\newcommand{\lhcb}[1]{\textcolor{green}{\textbf{#1 [LHCb]}}}
+\newcommand{\theory}[1]{\textcolor{black}{\textbf{#1 [TH]}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% section headings, include TH/EXP info, once completed
+\newcommand{\cmsC}[1]{\textcolor{blue}{\textbf{#1 [CMS]$^*$}}}
+\newcommand{\atlasC}[1]{\textcolor{red}{\textbf{#1 [ATLAS]$^*$}}}
+\newcommand{\lhcbC}[1]{\textcolor{green}{\textbf{#1 [LHCb]$^*$}}}
+\newcommand{\theoryC}[1]{\textcolor{black}{\textbf{#1 [TH]$^*$}}}
+\newcommand{\contributors}[1]{{\bf Contribution from: #1}}
+
+
+% section headings, include TH/EXP info, once completed
+%\newcommand{\cms}[1]{#1}
+%\newcommand{\atlas}[1]{#1}
+%\newcommand{\lhcb}[1]{#1}
+%\newcommand{\theory}[1]{#1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% section headings, include TH/EXP info, once completed
+%\newcommand{\cmsC}[1]{#1}
+%\newcommand{\atlasC}[1]{#1}
+%\newcommand{\lhcbC}[1]{#1}
+%\newcommand{\theoryC}[1]{#1}
+%\usepackage{marginnote}
+%COMMANDS TO ADD COMMENTS
+\newcommand{\rt}[1]{{\textcolor{blue}{\tiny (RT)}}\marginpar{\flushleft\scriptsize \textcolor{blue}{\bf RT}: #1}}
+\newcommand{\pf}[1]{{\textcolor{magenta}{\tiny (PF)}}\marginpar{\flushleft\scriptsize \textcolor{magenta}{\bf PF}: #1}}
+\newcommand{\mdo}[1]{{\textcolor{orange}{\tiny (MDO)}}\marginpar{\flushleft\scriptsize \textcolor{orange}{\bf MDO}: #1}}
+\newcommand{\ku}[1]{{\textcolor{red}{\tiny (KU)}}\marginpar{\flushleft\scriptsize \textcolor{red}{\bf KU}: #1}}
+\newcommand{\xcv}[1]{{\textcolor{green}{\tiny (XCV)}}\marginpar{\flushleft\scriptsize \textcolor{green}{\bf XCV}: #1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%			  Global commands.                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\sherpa}[1]{\textsc{SHERPA#1}}
+\newcommand{\pythia}[1]{\textsc{Pythia#1}}
+\newcommand{\powhegbox}[1]{\textsc{Powheg-Box#1}}
+\newcommand{\herwig}[1]{\textsc{Herwig#1}}
+\newcommand{\madgraph}[1]{\textsc{MadGraph#1}}
+\newcommand{\madanalysis}[1]{\textsc{MadAnalysis#1}}
+\newcommand{\geant}[1]{\textsc{Geant#1}}
+\newcommand{\fastjet}[1]{\textsc{FastJet#1}}
+\newcommand{\micromegas}[1]{\textsc{micrOMEGAs#1}}
+\newcommand{\sarah}[1]{\textsc{SARAH#1}}
+\newcommand{\spheno}[1]{\textsc{SPheno#1}}
+\newcommand{\delphes}[1]{\textsc{Delphes#1}}
+\newcommand{\alpgen}[1]{\textsc{ALPGEN#1}}
+\newcommand{\calchep}[1]{\textsc{CalcHep#1}}
+\newcommand{\cp}{CP~}%$\mathcal{CP}$\ }
+\newcommand{\RESUMMINO}{\textsc{Resummino}\xspace}
+\newcommand{\POWHEG} {{\textsc{powheg}}\xspace}
+\newcommand{\PYTHIA} {{\textsc{pythia}}\xspace}
+\newcommand{\MADGRAPH} {\textsc{MadGraph}\xspace}
+\newcommand{\feynrules} {\textsc{FeynRules}\xspace}
+\newcommand{\MCATNLO} {\textsc{mc@nlo}\xspace}
+\newcommand{\MGvATNLO}{\MADGRAPH{}5\_a\MCATNLO}
+\newcommand{\GEANTfour} {{\textsc{Geant4}}\xspace}
+%some additional useful global commands
+\newcommand{\fig}[1]{fig.~\ref{#1}}
+\newcommand{\figs}[1]{fig.s~\ref{#1}}
+\newcommand{\citeref}[1]{ref.~\cite{#1}}
+\newcommand{\citerefs}[1]{refs.~\cite{#1}}
+\newcommand{\tabb}[1]{table~\ref{#1}}
+\newcommand{\eq}[1]{eq.~\eqref{#1}}
+\newcommand{\eqs}[1]{eq.s~\eqref{#1}}
+\newcommand{\secc}[1]{section~\ref{#1}}
+\newcommand{\com}{c.o.m.~}
+\newcommand{\cpeven}{CP-even~}
+\newcommand{\cpodd}{CP-odd~}
+\newcommand{\cl}{C.L.~}
+\newcommand{\vev}{\textsc{vev}~}
+\newcommand{\vevs}{\textsc{vevs}~}
+
+
+\def\gsim{\mathrel{\lower2.5pt\vbox{\lineskip=0pt\baselineskip=0pt
+           \hbox{$>$}\hbox{$\sim$}}}}
+\def\lsim{\mathrel{\lower2.5pt\vbox{\lineskip=0pt\baselineskip=0pt
+           \hbox{$<$}\hbox{$\sim$}}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\begin{document}
+\newcommand{\main}{.}
+\def\biblio{}
+\input{\main/titlepage}
+%\title{HL/HE-LHC Physics WG3 Report\\[5mm]
+%  BSM}
+%\input{authors_sorted}
+
+
+%\maketitle
+%\begin{enumerate}
+%\item
+%\begin{itemize}
+%\item
+%\begin{enumerate}
+%\item
+%\begin{itemize}
+%\item
+%\begin{enumerate}
+%\item
+%\end{enumerate}
+%\end{itemize}
+%\end{enumerate}
+%\end{itemize}
+%\end{enumerate}
+
+
+%\begin{abstract}
+%This is the abstract
+%\end{abstract}
+
+% -- Set the level of the TOC: 2 means including subsection, 1 means
+% including section
+\setcounter{tocdepth}{10}
+\tableofcontents
+\newpage
+
+% -- List of sections
+\noindent {\bf Some global fixes still missing:}
+\begin{itemize}
+\item Notation to refer to the panels of figures: right vs right-hand, top vs upper etc.
+\item Should we replace everywhere the ugly 3000 fb$^{-1}$ with 3 ab$^{-1}$?
+\item We have to uniform notation for MET, PT, KT and all kinematic variables in general;
+\item For the sections where paragraphs or subsubsections remain uniform the notation;
+\end{itemize}
+
+%\subfile{\main/section1IntroductionAndOverview/section}
+%\newpage
+%\subfile{\main/section2SUSY/section}
+%\newpage
+%\subfile{\main/section3DarkMatterSearches/section}
+%\newpage
+%\subfile{\main/section4LongLivedParticles/section}
+%\newpage
+%\subfile{\main/section5DarkSectorDarkPhotons/section}
+%\newpage
+%\subfile{\main/section6FlavorRelatedStudies/section}
+%\newpage
+\subfile{\main/section7OtherSignatures/section}
+\newpage
+%\subfile{\main/conclusions/section}
+%\newpage
+%\subfile{\main/acknowledgements}
+%\newpage
+
+% -- Add bibliography to table of contents
+%\addcontentsline{toc}{chapter}{References}
+
+% dummy reference to avoid that bibtex fails
+% -- Add volume bibliography and part specific bibliographies
+\bibliographystyle{report}
+\bibliography{\bibfiles}
+
+\end{document}
